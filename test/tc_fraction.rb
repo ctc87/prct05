@@ -1,8 +1,6 @@
 require '../lib/fraction'
 require 'test/unit'
 
-#puts "Start test fraction \nNeeds develop the simplify part"
-
 class TestFraction < Test::Unit::TestCase
 	def setup
 		@unit = Fraction.new(1,1)
